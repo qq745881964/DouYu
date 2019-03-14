@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+     <TextView
+         android:background="@color/huise"
+         android:text="三种请求方式:Volley,OkHttp,Retrofit"
+         android:textColor="@color/chengse"
+         android:textSize="25sp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_Volley"
+        android:text="Volley(数据量不大,网络通信频繁)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_OkHttp"
+        android:text="OkHttp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_Retrofit"
+        android:text="Retrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_huoqu"
+        android:text="获取数据点"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

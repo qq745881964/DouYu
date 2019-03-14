@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wwwqq.douyu">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tu"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity"></activity>
+
+        <activity android:name=".activity.ZhuYe_Activity"
+            android:theme="@style/Theme.PageIndicatorDefaults">
+
+        </activity>
+
+        <activity android:name=".activity.ZhiWen_Activity"></activity>
+
+        <activity android:name=".activity.ChaXun_Activity"></activity>
+
+        <activity android:name=".activity.Activity_ZhouQi">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>
